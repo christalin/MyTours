@@ -19,7 +19,8 @@
     "Microsoft.EntityFrameworkCore.Tools": {
       "version": "1.0.0-*",
       "type": "build"
-    }
+    },
+    "Microsoft.Extensions.Logging.Debug": "1.0.0"
   },
 
   "tools": {

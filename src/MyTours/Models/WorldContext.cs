@@ -32,16 +32,5 @@ namespace MyTours.Models
             optionsBuilder.UseSqlServer(_config["ConnectionStrings:WorldContextConnection"]);
         }
     }
-    /*
-    public class TemporaryDbContextFactory : IDbContextFactory<WorldContext>
-    {
-        public WorldContext Create()
-        {
-            var builder = new DbContextOptionsBuilder<WorldContext>();
-            builder.UseSqlServer("Server=(localdb)\\MSSQLLocalDb;Database=TheWorldDb;Trusted_Connection=true;MultipleActiveResultSets=true");
-            return new WorldContext(builder.Options);
-        }
-    }
-    */
 
 }
