@@ -3,6 +3,9 @@
     "ToAddress": "christy@google.com"
   },
   "ConnectionStrings": {
-    "WorldContextConnection": "Server=(localdb)\\MSSQLLocalDb;Database=TheWorldDb;Trusted_Connection=true;MultipleActiveResultSets=true" 
+    "WorldContextConnection": "Server=(localdb)\\MSSQLLocalDb;Database=TheWorldDb;Trusted_Connection=true;MultipleActiveResultSets=true"
+  },
+  "Keys": {
+    "BingKey": "DONTEVERPUTKEYINSOURCECONTROL"
   } 
 }

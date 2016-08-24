@@ -28,14 +28,19 @@ namespace MyTours.Controller.Web
         {
             try
             {
-                var data = _repository.GetAllTrips();
-                return View(data);
+                return View();
             }
             catch (Exception ex)
             {
                 _logger.LogError($"Failed to get trips in Index Page: {ex.Message}");
                 return Redirect("/error");
             }
+        }
+
+        public IActionResult Trips()
+        {
+            var data = _repository.GetAllTrips();
+            return View(data);
         }
 
         public IActionResult Contact()
